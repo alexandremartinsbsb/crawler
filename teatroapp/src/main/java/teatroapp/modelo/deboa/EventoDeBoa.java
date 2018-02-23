@@ -1,4 +1,4 @@
-package teatroapp.deboa;
+package teatroapp.modelo.deboa;
 
 import java.util.ArrayList;
 import java.util.List;

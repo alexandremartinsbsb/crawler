@@ -1,4 +1,4 @@
-package teatroapp.cenacontemporanea;
+package teatroapp.modelo.cenacontemporanea;
 
 public class ServicoCenaContemporanea {
 

@@ -1,17 +1,14 @@
-import java.util.List;
-
-import teatroapp.Programacao;
-import teatroapp.Fonte;
+import teatroapp.Buscar;
+import teatroapp.impl.ProgramacaoDeBoa;
 
 public class Testa {
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    Programacao buscaProgramacao = new Programacao();
-    List<Object> buscar = buscaProgramacao.buscar(Fonte.DEBOA);
+		Buscar buscar = new Buscar(new ProgramacaoDeBoa());
 
-    System.out.println(buscar);
+		System.out.println(buscar.buscaProgramacao());
 
-  }
+	}
 
 }

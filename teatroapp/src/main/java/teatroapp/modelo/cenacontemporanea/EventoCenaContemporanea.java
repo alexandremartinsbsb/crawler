@@ -1,4 +1,4 @@
-package teatroapp.cenacontemporanea;
+package teatroapp.modelo.cenacontemporanea;
 
 import java.util.ArrayList;
 import java.util.List;

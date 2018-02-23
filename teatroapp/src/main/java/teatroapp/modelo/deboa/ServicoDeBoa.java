@@ -1,4 +1,4 @@
-package teatroapp.deboa;
+package teatroapp.modelo.deboa;
 
 public class ServicoDeBoa {
 

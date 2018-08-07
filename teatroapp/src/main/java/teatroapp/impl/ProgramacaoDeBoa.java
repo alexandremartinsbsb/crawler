@@ -80,9 +80,9 @@ public class ProgramacaoDeBoa implements Programacao {
 		eventoDeBoa.setListaServicos(listaServicos);
 
 		Elements elementos = doc.select("ul > li");
-		eventoDeBoa.setValorInteira(elementos.get(elementos.size() - 19).text().substring(0, 9).trim());
-		eventoDeBoa.setValorMeia(elementos.get(elementos.size() - 18).text().substring(0, 9).trim());
-		eventoDeBoa.setClassificacao(elementos.get(elementos.size() - 15).text().substring(15));
+		//eventoDeBoa.setValorInteira(elementos.get(elementos.size() - 19).text().substring(0, 9).trim());
+		//eventoDeBoa.setValorMeia(elementos.get(elementos.size() - 18).text().substring(0, 9).trim());
+		//eventoDeBoa.setClassificacao(elementos.get(elementos.size() - 15).text().substring(15));
 
 		return eventoDeBoa;
 	}
